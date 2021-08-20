@@ -1,0 +1,19 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.round{
+    width: 150px;
+    height: 150px;
+    background: greenyellow;
+    margin: 50px auto;
+    transition: 1s;
+}
+
+
+.round:hover{
+    background: green;
+    border-radius: 150px 15px 150px 15px;
+    /*border-radius: 15px 15px 15px 15px;*/
+    /*border-radius: 50%;*/
+}
